@@ -1,0 +1,5 @@
+name: Gym Connector
+description: A Module for Gym Application.
+core_version_requirement: '^8.9 || ^9'
+package: Custom
+type: module
