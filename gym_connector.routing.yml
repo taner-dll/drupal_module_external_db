@@ -1,8 +1,8 @@
 gym_connector.user_controller_index:
-  path: '/gym/users'
+  path: '/gym/users/{name}'
   defaults:
     _controller: '\Drupal\gym_connector\Controller\UserController::index'
-    _title: 'display'
+    _title: 'GYM Users'
   requirements:
     _permission: 'access content'
 

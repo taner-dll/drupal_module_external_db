@@ -1,0 +1,5 @@
+services:
+  drupal.gym_connector.user_controller:
+    class: Drupal\gym_connector\Controller\User
+    arguments: ['@database']
+    autowire: true
